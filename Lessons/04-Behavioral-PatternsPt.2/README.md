@@ -393,7 +393,17 @@ __*Example Use Case -*__ The most popular usage of the Mediator pattern in Swift
 
 ## Implementing the Mediator Pattern
 
-Complete [this activity](https://github.com/Make-School-Courses/MOB-2.4-Advanced-Architectural-Patterns-in-iOS/blob/master/Lessons/04-Behavioral-PatternsPt.2/assignments/mediator.md to learn how to implement the mediator pattern
+[Mediator Pattern Video Explanation](https://youtu.be/A9Ku5DXWNvs)
+
+[Follow along this video to implement the pattern](https://youtu.be/bmm5cLi1SB4)
+
+<!-- v -->
+
+Things to think about from the coding sample:
+- Looks like there are objects strongly referencing each other. What can be changed to prevent this?
+- What if there's more demand of requests of a certain concentration and limited TAs available? Can we give them a limit of requests?
+- It's possible to keep refactoring this solution. What about another protocol for the Peer classes? or a Base Class?
+- Can the Request class be a Struct?
 
 <!-- > -->
 
@@ -444,13 +454,15 @@ peter.name = "Bruno Mars" // prints "I'm now called Bruno Mars"
 
 ## Additional Resources
 
-2. [Observer pattern - wikipedia](https://refactoring.guru/design-patterns/observer)
-4. [Mediator pattern - wikipedia](https://refactoring.guru/design-patterns/mediator)
-4. [God Object - wikipedia](https://en.wikipedia.org/wiki/God_object) <sup>3</sup>
-5. [Using Key-Value Observing in Swift](https://developer.apple.com/documentation/swift/cocoa_design_patterns/using_key-value_observing_in_swift)
-6. [Lapsed Listener Problem - wikipedia](https://en.wikipedia.org/wiki/Lapsed_listener_problem)
-7. [Design Patterns on iOS using Swift – Part 2/2 - from Ray Wenderlich](https://www.raywenderlich.com/476-design-patterns-on-ios-using-swift-part-2-2)
-- Contains descriptions and examples of the Observer pattern in iOS, including both Notifications and KVO, with a simple, excellent KVO example in which a `UIActivityIndicator` is stopped when there is a change to an `image property`.
+1. [Observer pattern - wikipedia](https://refactoring.guru/design-patterns/observer)
+1. [Mediator pattern - wikipedia](https://refactoring.guru/design-patterns/mediator)
+1. [Using Key-Value Observing in Swift](https://developer.apple.com/documentation/swift/cocoa_design_patterns/using_key-value_observing_in_swift)
+
+<!-- v -->
+
+1. [Design Patterns on iOS using Swift – Part 2/2 - from Ray Wenderlich](https://www.raywenderlich.com/476-design-patterns-on-ios-using-swift-part-2-2)
+1. [Mediator Pattern Problem Inspiration](https://github.com/kingreza/Swift-Mediator))
+1. [Gang Of Four Cheat Sheet](http://www.blackwasp.co.uk/GangOfFour.aspx)
 
 
 <!-- TODO: add:

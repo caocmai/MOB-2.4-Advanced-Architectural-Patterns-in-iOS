@@ -42,7 +42,7 @@ Students by the end of the course will be able to ...
 |  8 |  Mon, Feb 15              | [Functional Programming Pt.2] |
 |  9 |  Wed, Feb 17              | Lab - Sharing Progress |
 | 10 |  Mon, Feb 22              | [Reactive Programming Pt.1] |  
-| 11 |  Wed, Feb 24              | [Reactive Programming Pt.2]|
+| 11 |  Wed, Feb 24              | [Reactive Programming Pt.2] |
 | 12 |  Mon, Mar 1               | [Reactive Programming Pt.3] |
 | 13 |  Wed, Mar 3               | Final Exam  |
 
@@ -62,11 +62,18 @@ Students by the end of the course will be able to ...
 
 ## Class Assignments
 
-Will be posted in Gradescope.
+|    Assignment             | Date Assigned |   Due Date   |     Submission Form     |
+|:-------------------------:|:-------------:|:------------:|:-----------------------:|
+| Creational P. Evidence  |  Jan 20       |  Jan 25           |  Gradescope  |
+| Behavioral P. Evidence  |  Jan 25       |  Jan 27          |  Gradescope  |
+| Structural P. Evidence  |  Jan 27       |  Feb 1           |  Gradescope    |
+| Patterns Worksheet      |  Jan 20       |  Feb 3           |  Gradescope   |
 
-### Projects
+### Project
 
-[Final project]
+|    Project             | Date Assigned |   Due Date   |     Submission Form  |
+|:----------------------:|:-------------:|:------------:|:--------------------:|
+| [Final Project]           |  Feb 1        |  Feb 17 & Mar 3  |  Gradescope   |
 
 [Final project]: Assignments/OSProject/Intro.md
 
@@ -74,7 +81,7 @@ Will be posted in Gradescope.
 
 To pass this course you must meet the following requirements:
 
-- Complete 80% of the class/homework assignments
+- Complete 80% of the class assignments
 - Score at least 70 in the final project according to rubric
 - Pass the final summative assessment with more than 70%
  - This will be further explained in the [study guide](https://github.com/Make-School-Courses/MOB-2.4-Advanced-Architectural-Patterns-in-iOS/blob/master/StudyGuide.md)
